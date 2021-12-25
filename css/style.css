@@ -64,10 +64,17 @@
     margin-right: 15%;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 .call-to-action h3, .call-to-action p {
     margin: 0;
+}
+
+.call-to-action button {
+    border: #E5E7EB;
+    border-style: solid;
+    border-width: thin;
 }
 
 .footer {
@@ -87,4 +94,13 @@ ul {
     padding: 0;
     display: flex;
     gap: 20px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
 }
