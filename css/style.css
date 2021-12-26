@@ -33,13 +33,24 @@
     padding: 40px 300px;
     align-items: center;
     text-align: center;
+    justify-content: center;
     margin-bottom: 40px;
     background-color: #ffffa1;
 }
 .content img {
     display: block;
-    border:#4673b3;
+    border: #fc3a3a;
     border-radius: 10px;
+    width: 180px;
+    border-style: solid;
+    border-width: thick;
+    margin-bottom: 10px;
+}
+
+.content li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-box {
@@ -48,11 +59,11 @@
     align-items: flex-end;
     padding: 50px 30%;
     flex-wrap: wrap;
-    background-color: #E5E7EB;
+    background-color: #ffffa1;
     font-size: 20px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: black;
     margin-bottom: 40px;
 }
 
@@ -62,7 +73,7 @@
 
 .call-to-action {
     display: flex;
-    background-color: #3882F6;
+    background-color: #fc3a3a;
     color: white;
     padding: 50px 15%;
     margin-left: 15%;
@@ -104,7 +115,7 @@ ul {
 
 button {
     color: white;
-    background-color: #3882F6;
+    background-color: #fc3a3a;
     padding: 5px 20px;
     border-radius: 10px;
     border: none;
